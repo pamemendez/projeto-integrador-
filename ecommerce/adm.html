@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tools - Sua loja online de ferramentas e acessorios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./scripts/orders.js" defer></script>
+  </head>
+
+<body>
+  <!-- header section starts -->
+
+  <header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"> <span>Drive</span>World</a>
+
+    <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="#about-us">about us</a>
+      <a href="#vehicles">vehicles</a>
+      <a href="#services">services</a>
+      <a href="#featured">features</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <div id="login-btn">
+      <button class="btn">Login</button>
+      <i class="far fa-user"></i>
+    </div>
+
+    <div id="cart-btn">
+      <a href="checkout.html" class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-cart"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+          />
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- header section ends -->
+  <main class="product main-content container">
+    <div class="product text-container">
+        <h2 class="main-text">Pedidos</h2>
+        <p>Confira abaixo os pedidos realizados e gerencie-os facilmente:</p>
+    </div>
+
+    <section class="product text-container">
+        <div id="orders" class="orders-container">
+            <!-- Lista de pedidos -->
+            <div class="grid_col_1" id="order-list">
+                <h3 class="sub-heading">Lista de Pedidos</h3>
+                <ul class="order-items">
+                    <li class="order-item">
+                        <span class="order-id">Pedido #001</span>
+                        <span class="order-date">12/12/2024</span>
+                        <span class="order-status">Concluído</span>
+                    </li>
+                    <li class="order-item">
+                        <span class="order-id">Pedido #002</span>
+                        <span class="order-date">11/12/2024</span>
+                        <span class="order-status">Pendente</span>
+                    </li>
+                    <!-- Adicione mais pedidos aqui -->
+                </ul>
+            </div>
+
+            <!-- Ações e Resumo -->
+            <div class="grid_col_2 action-summary">
+                <h3 class="sub-heading">Resumo</h3>
+                <p>Total de Pedidos: <span class="total-orders">2</span></p>
+                <p>Pedidos Concluídos: <span class="completed-orders">1</span></p>
+                <p>Pedidos Pendentes: <span class="pending-orders">1</span></p>
+
+                <!-- Botão de Exportação -->
+                <button class="button checkout_btn" id="export-button">Exportar Dados</button>
+
+                <!-- Filtros de visualização -->
+                <div class="filters">
+                    <h4>Filtrar por:</h4>
+                    <select id="filter-status" class="filter-dropdown">
+                        <option value="all">Todos</option>
+                        <option value="completed">Concluídos</option>
+                        <option value="pending">Pendentes</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+      <!-- footer section starts -->
+
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-map-maker-alt"></i> alemanha</a>
+            <a href="#"> <i class="fas fa-map-maker-alt"></i> france</a>
+            <a href="#"> <i class="fas fa-map-maker-alt"></i> brazil</a>
+            <a href="#"> <i class="fas fa-map-maker-alt"></i> russa</a>
+            <a href="#"> <i class="fas fa-map-maker-alt"></i> africa</a>
+          </div>
+  
+          <div class="box">
+            <h3>quik links</h3>
+            <a href="#Home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#vehicles"> <i class="fas fa-arrow-right"></i> vehicle </a>
+            <a href="#services"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
+          </div>
+  
+          <div class="box">
+            <h3>quik links</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +55-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> driveworld@gmail.com </a>
+            <a href="#">
+              <i class="fas fa-map-marker-alt"></i> campinas, brazil - 1300103
+            </a>
+          </div>
+  
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="https://github.com/pamemendez" target="_blank">
+              <i class="fab fa-github"></i> github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pâmella-mendes-47aa5a26b"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i> linkedin
+            </a>
+            <a href="#" target="_blank">
+              <i class="fab fa-facebook-f"></i> facebook
+            </a>
+          </div>
+        </div>
+  
+        <div class="credit">create by Pâmella Mendes | all rights reserved!</div>
+      </section>
+  
+      <!-- footer section ends -->
+</body>
+
+</html>

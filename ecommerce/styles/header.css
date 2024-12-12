@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --yellow: #f9d806;
+    --light-yellow: #ffee80;
+    --black: #130f40;
+    --light-color: #666;
+    --border: 1rem solid rgba(0,0,0,.1);
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+.header{
+    padding: 2rem;
+}
+
+.header.active{
+    padding: 2rem;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
+    color: var(--black);
+}
+
+.heading span{
+    position: relative;
+    z-index: 0;
+}
+
+.heading span::before{
+    content: '';
+    position: absolute;
+    bottom: 1rem; left:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--yellow);
+    clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover {
+    background: var(--yellow);
+}
+
+.btn-check {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn-check:hover {
+    background: #e64a19;
+}
+
+.btn-add {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+#cart-btn > a > svg {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+.btn-add:hover {
+    background: #e64a19;
+}
+
+.header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 999;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 3rem 9%;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    color: var(--black);
+    font-weight: bolder;
+}
+
+.header .logo span {
+    color: var(--yellow);
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover {
+    color: var(--yellow);
+}
+
+.header .btn {
+    margin-top: 0;
+}
+
+.header #login-btn i {
+    font-size: 2.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+    display: none;
+}
+
+.login-form-container{
+    position: fixed;
+    top: 105px; left: 0;
+    z-index: 1000;
+    background: rgba(255,255,255,.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+} 
+
+.login-form-container.active{   
+    top:0;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form-container form{
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+    border: var(--border);
+    text-align: center;
+    width: 40rem;
+}
+
+.login-form-container form .buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login-form-container form .btn{
+    display: block;
+    width: 100%;
+    margin: .5rem 0;
+}
+
+.login-form-container form h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.login-form-container form .box{
+    margin: .7rem 0;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+    font-size: 1.6rem;
+    padding: 1rem 1.2rem;
+    border: var(--border);
+    border-radius: .5rem;
+}
+
+.login-form-container form p{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.login-form-container form p a{
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+.login-form-container #close-login-form{
+    background-color: #ccc;
+    position: absolute;
+    top: 2rem; right: 2.5rem;
+    font-size: 5rem;
+    color: var(--black);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.home{
+    padding-top: 10rem;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.home h1{
+    font-size: 5.5vw;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.home img{
+    width: 90%;
+    margin: 2.5rem 0;
+}
+
+.icons-container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    background: #eee;
+}
+
+.icons-container .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.icons-container .icons i{
+    height: 15rem;
+    width: 10rem;
+    line-height: 15rem;
+    font-size: 4rem;
+    background: #eee;
+    color: var(--black);
+    text-align: center;
+}
+
+.icons-container .icons .content h3{
+    color: var(--yellow);
+    font-size: 2.5rem;
+
+}
+
+.icons-container .icons .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.icons-container .icons:hover i{
+    background: var(--black);
+    color: #fff;
+}
+
+.icons-container .icons:hover .content h3{
+    background: #fff;
+}
+
+.icons-container .icons:hover .content p{
+    background: #eee
+    
+}
+
+
+  /*about us starts*/
+
+.about-us .heading {
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-us .heading span {
+    color: var(--primary-color);
+  }
+  
+  #about-us {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    width: 80%;
+    margin: 7rem auto;
+    border: var(--border);
+  }
+
+  #about-us .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #about-us .text {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    max-width: 50%;
+  }
+  
+  #about-us p {
+    color: var(--text-color);
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  #about-us .about-image {
+    width: 50%;
+    padding: 17px;
+    border-radius: 8px;
+    object-fit: cover; 
+    max-height: 400px; 
+    margin-top: 5rem;
+  }
+  
+  #about-us strong {
+    color: var(--primary-color);
+  }
+
+  /*about us ends*/
+
+  .contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact .row .map{
+    flex: 1 1 42rem;
+    width: 100%;
+    padding: 2rem;
+    border: var(--border) ;
+    box-shadow: var(--box-shadow);
+}
+
+.contact .row form{
+    flex: 1 1 40rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+
+.contact .row form h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.contact .row form .box{
+    margin: 1.2rem;
+    width: 100%;
+    border: var(--border);
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    border-radius: .5rem;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+
+/* responsivo */
+
+/* Mobile */
+
+@media (max-width: 576px) {
+
+    #header-main {
+        padding: 10px 0;
+    }
+
+    #header-info-bar h4{
+        text-align: center;
+    }
+ 
+
+    #header-info-bar h4:first-child, #header-info-bar h4:last-child {
+        display: none;
+        text-align: center;
+    }
+
+    #header-info-bar .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #header-main .container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .header-main-search-bar {
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        order: 3;
+    }
+
+    .header-navbar {
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--bg-color);
+        width: 100%;
+    }
+
+  
+
+    label[for="menu-toggle"] {
+
+        display: block;
+        display: block;
+        text-align: center;
+        background-color: var(--bg-color);
+        padding: 10px 0;
+    }
+    
+
+    .header-navbar{
+        display: none;
+    }
+
+
+    #menu-toggle:checked + .hamburguer + .header-navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-navbar .container {
+        flex-direction: column;
+    }
+
+  
+    
+
+    .header-navbar ul li {
+       padding: 8px;
+    }
+
+
+
+
+
+    
+}

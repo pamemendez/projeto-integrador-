@@ -1,0 +1,215 @@
+
+
+.product.text-container.page-title-small {
+    margin-top: 24px;
+}
+
+.product.text-container {
+    margin: 10px 0px;
+}
+
+.product.text-container h4 {
+    font-weight: 400;
+    font-size: 0.875em;
+    padding-bottom: 5px;
+}
+
+.product.main-text {
+    font-size:1.2em
+}
+
+/* product page grid */
+
+.product_images_container{
+    display: flex;
+    column-gap: 32px;
+}
+
+.images_selector{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 120px;
+    align-items: center;
+}
+
+.bi::before, [class*=" bi-"]::before, [class^=bi-]::before {
+    padding: 6px;
+    font-size: 24px;
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: 900 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.images_selector ul{
+   list-style: none;
+}
+
+.images_selector li{
+    padding: 10px 0;
+ }
+
+.product_thumb {
+    width: 100%;
+}
+
+
+
+.images_main {
+    flex-basis: 565px;
+    padding-top: 75px;
+}
+
+.images_main img{
+    width: 100%;
+}
+
+.product_description_container {
+    padding-top: 32px;
+}
+
+.product_description_container h3.main-text{
+    padding: 20px 0 12px;
+    font-size: 1.2em;
+}
+
+.product_description_container p{
+   line-height: 24px;
+   padding-bottom: 32px;
+}
+
+
+
+.product_price_container {
+    padding-bottom: 40px;
+}
+
+.product_price_container h2{
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 16px;
+    line-height: 18px;
+
+}
+
+.product_price_container h5{
+    font-size: 0.875em;
+    font-weight: 400;
+    padding-bottom: 10px;
+    line-height: 18px;
+
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.quantity input{
+    border:1px solid var(--brand-color);
+    border-radius: 5px;
+    padding:4px 8px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.shop_btn {
+    padding: 16px 32px;
+    color: var(--bg-white);
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    background-color: var(--brand-color);
+}
+
+.freight_container {
+    font-family: Arial, sans-serif; /* Ajuste para o padrão do site */
+    padding: 20px;
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .freight_container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .container-flex {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .container-flex input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .container-flex .freight_ok {
+    padding: 10px 20px;
+    background-color: var(--primary-color, #ffd700); /* Substitua pelo padrão do site */
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container-flex .freight_ok:hover {
+    background-color: var(--link-hover, #e6b800); /* Cor de destaque ao passar o mouse */
+  }
+  
+  .freight_container p {
+    margin-top: 10px;
+  }
+  
+  .freight_container p a {
+    color: var(--primary-color, #000000);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .freight_container p a:hover {
+    color: var(--link-hover, #0056b3); /* Cor ao passar o mouse */
+  }
+
+  p a {
+    color: var(--primary-color, #007bff); /* Substitua pelo padrão do site */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  p a:hover {
+    color: var(--link-hover, #0056b3); /* Cor ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  }
+  .button {
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: #ffd700; /* Cor de fundo */
+  color: #000; /* Cor do texto */
+  border: none; /* Remove bordas padrão */
+  border-radius: 4px; /* Bordas arredondadas */
+  font-size: 14px; /* Tamanho da fonte */
+  cursor: pointer; /* Indica que é clicável */
+  transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+.button:hover {
+  background-color: #e6b800; /* Cor ao passar o mouse */
+}
