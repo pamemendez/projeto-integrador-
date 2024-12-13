@@ -19,7 +19,6 @@
 
     .product {
         font-family: Arial, sans-serif;
-        margin: 150px;
     }
 
     .main-text {
@@ -37,22 +36,6 @@
         display: flex;
         gap: 20px;
     }
-/* 
-    .grid_col_1 {
-        flex: 2;
-        background: #f9f9f9;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    } */
-
-    /* .grid_col_2 {
-        flex: 1;
-        background: #fffbe0;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    } */
 
     .order-items {
         list-style: none;

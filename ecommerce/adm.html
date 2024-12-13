@@ -20,20 +20,20 @@
     <script type="module" src="./scripts/orders.js" defer></script>
   </head>
 
-<body>
-  <!-- header section starts -->
+  <body>
+   <!-- header section starts -->
 
-  <header class="header">
+   <header class="header">
     <div id="menu-btn" class="fas fa-bars"></div>
     <a href="#" class="logo"> <span>Drive</span>World</a>
 
     <nav class="navbar">
       <a href="index.html">home</a>
-      <a href="#about-us">about us</a>
-      <a href="#vehicles">vehicles</a>
-      <a href="#services">services</a>
-      <a href="#featured">features</a>
-      <a href="#contact">contact</a>
+      <a href="index.html">about us</a>
+      <a href="products.html">vehicles</a>
+      <a href="index.html">services</a>
+      <a href="index.html">features</a>
+      <a href="index.html">contact</a>
     </nav>
     <div id="login-btn">
       <button class="btn">Login</button>
@@ -58,111 +58,89 @@
     </div>
   </header>
 
-  <!-- header section ends -->
+
   <main class="product main-content container">
     <div class="product text-container">
-        <h2 class="main-text">Pedidos</h2>
-        <p>Confira abaixo os pedidos realizados e gerencie-os facilmente:</p>
+      <h2 class="main-text">Pedidos</h2>
+      <p>Relaçao de pedidos realizados:</p>
     </div>
 
     <section class="product text-container">
-        <div id="orders" class="orders-container">
-            <!-- Lista de pedidos -->
-            <div class="grid_col_1" id="order-list">
-                <h3 class="sub-heading">Lista de Pedidos</h3>
-                <ul class="order-items">
-                    <li class="order-item">
-                        <span class="order-id">Pedido #001</span>
-                        <span class="order-date">12/12/2024</span>
-                        <span class="order-status">Concluído</span>
-                    </li>
-                    <li class="order-item">
-                        <span class="order-id">Pedido #002</span>
-                        <span class="order-date">11/12/2024</span>
-                        <span class="order-status">Pendente</span>
-                    </li>
-                    <!-- Adicione mais pedidos aqui -->
-                </ul>
-            </div>
+      <div id="orders">
+        <div class="grid_col_1" id="order-list">
+          
 
-            <!-- Ações e Resumo -->
-            <div class="grid_col_2 action-summary">
-                <h3 class="sub-heading">Resumo</h3>
-                <p>Total de Pedidos: <span class="total-orders">2</span></p>
-                <p>Pedidos Concluídos: <span class="completed-orders">1</span></p>
-                <p>Pedidos Pendentes: <span class="pending-orders">1</span></p>
-
-                <!-- Botão de Exportação -->
-                <button class="button checkout_btn" id="export-button">Exportar Dados</button>
-
-                <!-- Filtros de visualização -->
-                <div class="filters">
-                    <h4>Filtrar por:</h4>
-                    <select id="filter-status" class="filter-dropdown">
-                        <option value="all">Todos</option>
-                        <option value="completed">Concluídos</option>
-                        <option value="pending">Pendentes</option>
-                    </select>
-                </div>
-            </div>
         </div>
+
+        <div class="grid_col_2">
+
+        
+
+          <button class="button checkout_btn" id="export-button">EXPORTAR</button>
+          
+        </div>
+
+
+
+      </div>
+
     </section>
-</main>
+
+  </main>
 
 
-      <!-- footer section starts -->
 
-      <section class="footer">
-        <div class="box-container">
-          <div class="box">
-            <h3>our branches</h3>
-            <a href="#"> <i class="fas fa-map-maker-alt"></i> alemanha</a>
-            <a href="#"> <i class="fas fa-map-maker-alt"></i> france</a>
-            <a href="#"> <i class="fas fa-map-maker-alt"></i> brazil</a>
-            <a href="#"> <i class="fas fa-map-maker-alt"></i> russa</a>
-            <a href="#"> <i class="fas fa-map-maker-alt"></i> africa</a>
-          </div>
-  
-          <div class="box">
-            <h3>quik links</h3>
-            <a href="#Home"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#vehicles"> <i class="fas fa-arrow-right"></i> vehicle </a>
-            <a href="#services"> <i class="fas fa-arrow-right"></i> services </a>
-            <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
-            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
-          </div>
-  
-          <div class="box">
-            <h3>quik links</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +55-222-3333 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> driveworld@gmail.com </a>
-            <a href="#">
-              <i class="fas fa-map-marker-alt"></i> campinas, brazil - 1300103
-            </a>
-          </div>
-  
-          <div class="box">
-            <h3>quick links</h3>
-            <a href="https://github.com/pamemendez" target="_blank">
-              <i class="fab fa-github"></i> github
-            </a>
-            <a
-              href="https://www.linkedin.com/in/pâmella-mendes-47aa5a26b"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin"></i> linkedin
-            </a>
-            <a href="#" target="_blank">
-              <i class="fab fa-facebook-f"></i> facebook
-            </a>
-          </div>
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>our branches</h3>
+          <a href="#"> <i class="fas fa-map-maker-alt"></i> alemanha</a>
+          <a href="#"> <i class="fas fa-map-maker-alt"></i> france</a>
+          <a href="#"> <i class="fas fa-map-maker-alt"></i> brazil</a>
+          <a href="#"> <i class="fas fa-map-maker-alt"></i> russa</a>
+          <a href="#"> <i class="fas fa-map-maker-alt"></i> africa</a>
         </div>
-  
-        <div class="credit">create by Pâmella Mendes | all rights reserved!</div>
-      </section>
-  
-      <!-- footer section ends -->
+
+        <div class="box">
+          <h3>quik links</h3>
+          <a href="#Home"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#vehicles"> <i class="fas fa-arrow-right"></i> vehicle </a>
+          <a href="#services"> <i class="fas fa-arrow-right"></i> services </a>
+          <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+          <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+          <h3>quik links</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +55-222-3333 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> driveworld@gmail.com </a>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> campinas, brazil - 1300103
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="https://github.com/pamemendez" target="_blank">
+            <i class="fab fa-github"></i> github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pâmella-mendes-47aa5a26b"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i> linkedin
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-facebook-f"></i> facebook
+          </a>
+        </div>
+      </div>
+
+      <div class="credit">create by Pâmella Mendes | all rights reserved!</div>
+    </section>
+
+    <!-- footer section ends -->
 </body>
 
 </html>

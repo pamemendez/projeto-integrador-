@@ -53,6 +53,53 @@
     column-gap: 16px;
 }
 
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); 
+    gap: 1.5rem;
+}
+
+.services .box-container .box {
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.services .box-container .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: var(--black);
+    background: var(--yellow);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.services .box-container h3 {
+    color: var(--black);
+    font-size: 2.2rem;
+}
+
+.services .box-container .box p {
+    color: var(--black);
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 1.8rem;
+}
+
+.services .box-container .box:hover {
+    background: var(--black);
+}
+
+.services .box-container .box:hover h3 {
+    color: #fff;
+}
+
+.services .box-container .box:hover p {
+    color: #eee;
+}
 
 
 .prev, .next {

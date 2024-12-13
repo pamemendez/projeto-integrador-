@@ -2,6 +2,7 @@
 // Get the orders from local storage
 import '../node_modules/xlsx/xlsx.js';
 let orders = JSON.parse(localStorage.getItem("pedidos"));
+console.log(orders)
 
 // Function to display the orders
 function displayOrders() {
@@ -129,27 +130,3 @@ function exportToExcel() {
 // Add an event listener to the button
 const exportButton = document.getElementById("export-button");
 exportButton.addEventListener("click", exportToExcel);
-
-
-
-
-
-document.getElementById('export-button').addEventListener('click', () => {
-  const orders = [
-      { id: 'Pedido #001', date: '12/12/2024', status: 'Concluído' },
-      { id: 'Pedido #002', date: '11/12/2024', status: 'Pendente' }
-  ];
-
-  const csvContent = "data:text/csv;charset=utf-8," +
-      ["ID,Data,Status"].concat(
-          orders.map(order => `${order.id},${order.date},${order.status}`)
-      ).join("\n");
-
-  const encodedUri = encodeURI(csvContent);
-  const link = document.createElement("a");
-  link.setAttribute("href", encodedUri);
-  link.setAttribute("download", "pedidos.csv");
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-});

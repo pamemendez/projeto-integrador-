@@ -20,10 +20,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 620.00, 
         descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
         imagemProduto: {
-            img1:"images/car-ia1.png",
-            img2:"images/car-ia1.png",
-            img3:"images/car-ia1.png",
-            img4:"images/car-ia1.png",
+            img1:"images/car-ia-shop2.png",
+            img2:"images/car-ia-shop2.png",
+            img3:"images/car-ia-shop2.png",
+            img4:"images/car-ia-shop2.png",
 
         },
         categoriaProduto: 'Ferramentas',
@@ -89,7 +89,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         categoriaProduto: 'Ferramentas',
         classificacaoProduto:"Novidades",
         exibirHome: true
-    }, {
+    },{
         codigoProduto:7,
         tituloProduto:"Popular", 
         preco: 620.00, 
@@ -102,9 +102,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Novidades",
         exibirHome: true
-    }, {
+    },
+    {
         codigoProduto:8,
         tituloProduto:"Popular", 
         preco: 620.00, 
@@ -117,9 +118,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Novidades",
         exibirHome: true
-    }, {
+    },
+    {
         codigoProduto:9,
         tituloProduto:"Popular", 
         preco: 620.00, 
@@ -132,9 +134,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Novidades",
         exibirHome: true
-    }, {
+    },
+    {
         codigoProduto:10,
         tituloProduto:"Popular", 
         preco: 620.00, 
@@ -147,9 +150,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Novidades",
         exibirHome: true
-    }, {
+    },
+     {
         codigoProduto:11,
         tituloProduto:"Popular", 
         preco: 620.00, 
@@ -215,14 +219,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 620.00, 
         descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
         imagemProduto: {
-            img1:"images/car-ia1.png",
-            img2:"images/car-ia1.png",
-            img3:"images/car-ia1.png",
-            img4:"images/car-ia1.png",
+            img1:"images/car-ia-shop2.png",
+            img2:"images/car-ia-shop2.png",
+            img3:"images/car-ia-shop2.png",
+            img4:"images/car-ia-shop2.png",
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     }, {
         codigoProduto:16,
@@ -237,7 +241,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     }, {
         codigoProduto:17,
@@ -252,7 +256,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     }, {
         codigoProduto:18,
@@ -267,9 +271,9 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
-    }, {
+    },{
         codigoProduto:19,
         tituloProduto:"Popular", 
         preco: 620.00, 
@@ -282,10 +286,27 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
-    }, {
+    },
+    {
         codigoProduto:20,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+     {
+        codigoProduto:21,
         tituloProduto:"Popular", 
         preco: 620.00, 
         descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
@@ -300,7 +321,127 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         classificacaoProduto:"Promocoes",
         exibirHome: true
     }, {
-        codigoProduto:21,
+        codigoProduto:22,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    }, {
+        codigoProduto:23,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    }, {
+        codigoProduto:24,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    }, {
+        codigoProduto:25,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    }, {
+        codigoProduto:26,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    }, {
+        codigoProduto:27,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },{
+        codigoProduto:28,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },{
+        codigoProduto:29,
+        tituloProduto:"Popular", 
+        preco: 620.00, 
+        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        imagemProduto: {
+            img1:"images/car-ia1.png",
+            img2:"images/car-ia1.png",
+            img3:"images/car-ia1.png",
+            img4:"images/car-ia1.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },{
+        codigoProduto:30,
         tituloProduto:"Popular", 
         preco: 620.00, 
         descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",

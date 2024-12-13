@@ -91,4 +91,13 @@
   .pay-method input {
     margin-right: 3px;
   }
-  
+
+
+.button.checkout_btn {
+  height: 70px;
+}
+
+.product.text-container1 {
+  border: 0;
+  box-shadow: 0;
+}

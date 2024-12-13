@@ -132,7 +132,7 @@
 .freight_container {
     font-family: Arial, sans-serif; /* Ajuste para o padrão do site */
     padding: 20px;
-    background-color: #f9f9f9; /* Cor de fundo clara */
+    background-color: #eee; /* Cor de fundo clara */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
   }
